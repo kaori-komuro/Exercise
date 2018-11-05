@@ -1,0 +1,141 @@
+ /* ブラウザがそれぞれ持っているCSSをリセットするため */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*clearfixを追加*/
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+header {
+  width: 100%;
+  padding: 20px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* headerタグ内のheadlineクラスのみ反映される */
+.header .headline {
+	font size:32px;
+}
+
+.nav-list {
+    text-align: center;
+	padding: 15px 0;
+	margin: 0 auto;
+	border-bottom: 1px solid #848282;
+  	border-top: 1px solid #848282
+}
+
+.nav-list-item {
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+}
+
+.main {
+	width: 800px;
+	margin: 50px auto;
+}
+
+.box1{
+	width: 200px;
+	height: 200px;
+	background-color: #E6FFE9;
+	float: left;
+}
+
+.box2{
+	width: 200px;
+	height: 200px;
+	background-color: #CBFFD3;
+	float: left;
+}
+
+.box3 {
+	width: 200px;
+	height: 200px;
+	background-color:#AEFFBD;
+	float: left;
+}
+
+.box4 {
+	width: 200px;
+	height: 200px;
+	background-color: #93ffad;
+	float: left;
+}
+
+.box5{
+	width: 200px;
+	height: 200px;
+	background-color: #f3ffd8;
+	float: left;
+}
+
+.box6{
+	width: 200px;
+	height: 200px;
+	background-color:#edffbe;
+	float: left;
+}
+
+.box7{
+	width: 200px;
+	height: 200px;
+	background-color: #edffa5;
+	float: left;
+}
+
+.box8{
+	width: 200px;
+	height: 200px;
+	background-color: #e4ff8d;
+	float: left;
+}
+
+.box9{
+	width: 200px;
+	height: 200px;
+	background-color: #d9e5ff;
+	float: left;
+}
+
+.box10{
+	width: 200px;
+	height: 200px;
+	background-color: #bad3ff;
+	float: left;
+}
+
+.box11 {
+	width: 200px;
+	height: 200px;
+	background-color:#a4c6ff;
+	float: left;
+}
+
+.box12{
+	width: 200px;
+	height: 200px;
+	background-color: #8eb8ff;
+	float: left;
+}
+
+footer {
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  padding: 50px 0;
+  background-color: #848282;
+}
+
+.footer-text {
+	color: #fff;
+}
