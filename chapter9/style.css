@@ -35,7 +35,6 @@ main {
   background-position: bottom;
 }
 
-
 .flow02 {
   height: 150px;
   background-image: url(img/flow02.png);
@@ -65,3 +64,15 @@ main {
   margin: 15px 0 5px;
 }
 
+@media screen and (max-width:768px) {  
+
+main {
+  width: 90%;
+  margin: 50px auto;
+}
+
+.box {
+  width: 100%;
+  margin: 20px auto;
+  float: none;
+}}
